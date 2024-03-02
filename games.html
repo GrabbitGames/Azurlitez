@@ -1182,7 +1182,7 @@ br {
     <a href="./gfiles/rarch/?core=snes9x">Upload ROM</a>
       </span>
     
-    <script>var searchbar = document.getElementById("gsearchbar");
+  var searchbar = document.getElementById("gsearchbar");
 var resultElem = document.querySelector(".results");
 var results = 0;
 
@@ -1235,14 +1235,20 @@ for(var i=0;i<gams.length;i++){
     this.link = this.href;
     e.preventDefault();
     if(!this.id) {
-      window.location.href = "/games.html#" + this.pathname;
+      window.location.href = "/gams.html#" + this.pathname;
     } else {
-      
+      window.navigator.serviceWorker.register('/sw.js', {
+        scope: __uv$config.prefix
+      }).then(() => {
+        if(!this.id.startsWith("http")){
+          window.location.href = "/gams.html#" + __uv$config.prefix + encodeUrl(window.location.origin + this.id.replace(/\\\//g, "/"));
+        } else {
+          window.location.href = "/gams.html#" + __uv$config.prefix + encodeUrl(this.id.replace(/\\\//g, "/"));
         }
       });
     }
   };
-}</script>
+}
   
 </div>
 </div>
