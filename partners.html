@@ -14,3 +14,161 @@
     <link rel="icon" href="/images/logo/favi/logo-32x32.png" sizes="32x32">
     <link rel="apple-touch-icon" href="/images/logo/favi/apple-touch-icon.png" sizes="180x180">
     <title>Mr-Bean-Mrs-Bean</title>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-20CSCVKLF3');
+</script>
+    <style>
+    #particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: -2;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#logo-title {
+        position: fixed;
+        top: 14px; 
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        max-width: 300px; 
+        width: 20%; 
+        height: auto;
+        opacity: 0;
+        animation: fadeIn 1.5s ease forwards, stretchAnimation 3s ease-in-out infinite;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes stretchAnimation {
+        0%, 100% {
+            transform: translateX(-50%) scaleY(1) scaleX(1);
+        }
+        50% {
+            transform: translateX(-50%) scaleY(1.1) scaleX(1.1);
+        }
+    }
+</style>
+     <div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBnrjkKBvz0YtCIr8Jw9-hwej47Ifv1cxA",
+    authDomain: "op1um-d0d0c.firebaseapp.com",
+    projectId: "op1um-d0d0c",
+    storageBucket: "op1um-d0d0c.appspot.com",
+    messagingSenderId: "526115431027",
+    appId: "1:526115431027:web:db413fa49b196f739ec006",
+    measurementId: "G-609F6X3XTT"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+<script>
+  window.onload = function() {
+      adjustLogoSize();
+      window.addEventListener('resize', adjustLogoSize);
+  };
+
+  function adjustLogoSize() {
+      var logo = document.getElementById('logo-title');
+      var logoWidthPercentage = 20;
+      var maxWidth = 300; 
+
+      var logoWidth = window.innerWidth * (logoWidthPercentage / 100);
+      if (logoWidth > maxWidth) {
+          logoWidth = maxWidth;
+      }
+
+      logo.style.width = logoWidth + 'px';
+  }
+  </script>
+<script>
+    $(document).ready(function () {
+        var splash = ["Fun Fact: Opium was originally a proxy called Op1um", "Luke is watching", "move if your a furry🤨", "TELL EVERYONE AT SCHOOL YOU LOVE OPIUM", "I am sigma", "Assassass", "SKIBBITY TOILET!", "Opium V1 coming soon..", "Fun Fact: Opium Games references to the Opium drug since they're both addictive", "I <3 Cybria", "Fun Fact: Opium's B-Day Is November 21", "noah m loves you", "Scott was here lol", "who is sc0tt?!", "Fun Fact: Check out Opium's current version at /VERSION.txt", "on skibidi?!", "X-88 + Sc0tt = W Duo"];
+
+        function randomize(array) {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+
+        randomize(splash);
+
+        var currentIndex = 0;
+
+        function updateSplash() {
+            var newSplash = splash[currentIndex];
+            $(".desc").text(newSplash);
+
+            currentIndex = (currentIndex + 1) % splash.length;
+        }
+
+        updateSplash();
+
+        $(window).on('beforeunload', function () {
+            sessionStorage.setItem('splashIndex', currentIndex);
+        });
+
+        var savedIndex = sessionStorage.getItem('splashIndex');
+        if (savedIndex !== null) {
+            currentIndex = parseInt(savedIndex);
+        }
+
+        updateSplash();
+    });
+</script>
+<script>
+   particlesJS('particles-js', {
+     particles: {
+       number: { value: 80, density: { enable: true, value_area: 800 } },
+       color: { value: '#ffffff' },
+       shape: { type: 'circle', stroke: { width: 0, color: '#000000' }, polygon: { nb_sides: 5 }, image: { src: 'img/github.svg', width: 100, height: 100 } },
+       opacity: { value: 0.5, random: false, anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false } },
+       size: { value: 3, random: true, anim: { enable: false, speed: 40, size_min: 0.1, sync: false } },
+       line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.4, width: 1 },
+       move: { enable: true, speed: 6, direction: 'none', random: false, straight: false, out_mode: 'out', bounce: false, attract: { enable: false, rotateX: 600, rotateY: 1200 } }
+     },
+     interactivity: {
+       detect_on: 'canvas',
+       events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' }, resize: true },
+       modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 }, remove: { particles_nb: 2 } }
+     },
+     retina_detect: true
+   });
+</script>
+</body>
+</html>
