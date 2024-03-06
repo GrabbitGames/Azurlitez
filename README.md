@@ -1,7 +1,3 @@
-# Mr-Bean-Mrs-Bean
-Mr Bean/Mrs Bean is BETTER THEN YOU
-#Made By me and my brother!!!
-
-#links are here 
-https://mrbean-web-made-by-us.netlify.app/
+# Mr-Bean-Mrs-Bean---> Azurlitez
+Did you Know This was originaly called Mr,beans and Mrs,Beans Game shack???
 # I am always open to suggestions on this website
