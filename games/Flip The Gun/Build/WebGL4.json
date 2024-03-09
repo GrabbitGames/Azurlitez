@@ -1,0 +1,16 @@
+{
+"companyName": "tangentandsoul",
+"productName": "Shooter, flip the gun!",
+"productVersion": "1.0",
+"dataUrl": "WebGL4.data.unityweb",
+"wasmCodeUrl": "WebGL4.wasm.code.unityweb",
+"wasmFrameworkUrl": "WebGL4.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "WebGL4.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.28f1"
+}
