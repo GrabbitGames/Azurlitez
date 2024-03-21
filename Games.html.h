@@ -46,14 +46,14 @@
   
 
   <script src="ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/gads/gads.js"></script>
-  <script src="assets/js/gads/ggads.js"></script>
-  <script src="assets/js/games/filters.js"></script>
-  <script src="assets/js/games/createfilters.js"></script>
-  <script src="assets/js/games/gamefilter.js"></script>
-  <script src="assets/js/games/games.js"></script>
-  <script src="assets/js/games/updategames.js"></script>
+  <script src="/js1/main.js"></script>
+  <script src="/js1/gads/gads.js"></script>
+  <script src="/js1/gads/ggads.js"></script>
+  <script src="/js1/games/filters.js"></script>
+  <script src="/js1/games/createfilters.js"></script>
+  <script src="/js1/games/gamefilter.js"></script>
+  <script src="/js1/games/games.js"></script>
+  <script src="/js1/games/updategames.js"></script>
 </body>
 
 </html>
