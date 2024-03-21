@@ -1,73 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
-
-body {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 0;
-  margin: 0;
+/* =================== Home Page =================== */
+h1{
+    font-size: 3rem;
 }
 
-.title-index {
-  line-height: 0.01em;
-  text-transform: uppercase;
-  font-family: 'Gasoek One', sans-serif;
-  text-align: center;
-  font-size: 3em;
-  align-items: center;
-  color: #ffffff;
-  font-weight: bold;
+/* =================== Content =================== */
+.content-wrapper{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 5%;
 }
 
-.desc {
-  line-height: 1.5em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
-  align-items: center;
-  font-size: 1.5em;
-  font-weight: bold;
+.centered{
+    text-align: center;
 }
 
-.buttons-container {
-    margin-top: 20px;
+#games-count {
+    color: var(--ubg);
 }
 
-.button-row {
-    margin-bottom: 10px;
+.bottom{
+    text-align: center;
+    padding-bottom: 2.5%;
 }
 
-.play-btn {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.05em;
-    min-width: 150px;
-    height: 40px;
-    border: none;
-    border-radius: 8px;
-    background-color: #000080;
-    color: #FFFFFF;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    margin-right: 10px;
-    margin-bottom: 10px;
+/* =================== Intro =================== */
+.intro-container{
+    text-align: center;
 }
 
-.play-btn:hover {
-    background-color: #FFFFFF;
-    transform: rotate(-15deg) scale(1.3);
-    color: #000080;
+.intro-header{
+    font-size: 4rem;
+    color: white;
 }
 
-main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.alt-t {
+    color: var(--ubg);
 }
 
-/* hide controls for easter egg videos */
-video.hidden-controls::-webkit-media-controls {
-  display: none;
+.intro-container > p{
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+    max-width: 85%;
 }
