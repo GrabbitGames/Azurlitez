@@ -194,7 +194,7 @@ a:hover {
 }
 
 .hero-main-small{
-	color: var(--ubg);
+	color: #FFF;
 	font-size: 40px;
 	font-weight: 500;
 	text-transform: uppercase;
