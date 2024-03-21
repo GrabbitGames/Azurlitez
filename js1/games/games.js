@@ -144,11 +144,11 @@ const gamesArr = [
   },
   {
     filter: [`sport`],
-    link: `retro-bowl`,
-    imgsrc: `retrobowl.jpg`,
-    name: `Retro Bowl`,
-    developer: `New Star Games`,
-    desc: `Retro Bowl is an American style football game created by New Star Games. Are you ready to manage your dream team into victory? Be the boss of your NFL franchise, expand your roster, take care of your press duties to keep your team and fans happy.`,
+    link: `/games/whos-evan kazwire v2.0 static-game_static_table-tennis-world-tour/`,
+    imgsrc: `/images/IMG_0119.jpeg`,
+    name: `Table Tennis`,
+    developer: `Happylander`,
+    desc: `Tabble Tennis is an American style Tenis game created by Happylander. Are you ready to go through all the levels? Be the boss of Table tennis, expand your Gameplay, take care of your buissness to keep you from loosing and keep you happy.`,
     controls: [`WASD/Arrow Keys: Control movement`, `Mouse: Drag to throw`]
   },
   {
