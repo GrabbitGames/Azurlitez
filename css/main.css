@@ -1,5 +1,5 @@
 ﻿/* =================== Import + Root =================== */
-@import url('../../css');
+@import url('/css');
 :root{
 	--ubg: #E77E7E;
 	--bg: #1F2029;
