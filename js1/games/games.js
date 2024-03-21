@@ -145,7 +145,7 @@ const gamesArr = [
   {
     filter: [`sport`],
     link: `games/whos-evan kazwire v2.0 static-game_static_table-tennis-world-tour`,
-    imgsrc: `images/IMG_0119.jpeg`,
+    imgsrc: `/images/IMG_0119.jpeg`,
     name: `Table Tennis`,
     developer: `Happylander`,
     desc: `Tabble Tennis is an American style Tenis game created by Happylander. Are you ready to go through all the levels? Be the boss of Table tennis, expand your Gameplay, take care of your buissness to keep you from loosing and keep you happy.`,
