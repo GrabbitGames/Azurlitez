@@ -32,7 +32,7 @@ body{
 	scroll-behavior: smooth;
 	background-color: #1f2029;
   	/* Create the parallax scrolling effect */
-  	background: url("../img/bg.svg");
+  	background: url("/IMG_0117.gif");
  	background-attachment: fixed;
  	background-position: center;
   	background-repeat: repeat;
