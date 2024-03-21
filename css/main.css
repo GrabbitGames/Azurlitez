@@ -180,7 +180,7 @@ a:hover {
 }
 
 .hero-main{
-	color: var(--ubg);
+	color: #FFF;
 	font-size: 100px;
 	font-weight: 900;
 	text-transform: uppercase;
