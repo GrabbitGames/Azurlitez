@@ -60,7 +60,7 @@ const gamesArr = [
   {
     filter: [`misc`, `puzzle`],
     link: `games/2048`,
-    imgsrc: `2048.png`,
+    imgsrc: `IMG_0121.png`,
     name: `2048`,
     developer: `Gabriele Cirulli`,
     desc: `2048 is a single-player sliding block puzzle game. Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!`,
