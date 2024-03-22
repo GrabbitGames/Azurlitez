@@ -28,10 +28,10 @@ const gamesArr = [
   },
   {
     filter: [`plat`],
-    link: `slope`,
+    link: `games/CybriaTech Opium main games-subway-surfers-ny`,
     imgsrc: `IMG_0126.jpeg`,
-    name: `Slope`,
-    developer: `Rob Kay`,
+    name: `Subway Surfer`,
+    developer: `SYBO`,
     desc: `Slope is the ultimate running game that will put your skills to the test. Speed down on a randomized slope. The farther you go, the faster your ball travels. This game might look simple but playing this will give you extreme adrenaline rush. Just remember to avoid obstacles and those red blocks. Always be on track to get a high score and you might have your name on the leaderboard!`,
     controls: [`AD/QE/Arrow Keys: Control movement`]
   },
