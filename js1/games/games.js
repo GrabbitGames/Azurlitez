@@ -37,7 +37,7 @@ const gamesArr = [
   },
   {
     filter: [`mp`, `shoot`, `fight`],
-    link: `getaway-shootout`,
+    link: `games/selenite-cc selenite-old main bit-planes`,
     imgsrc: `getaway-shootout.jpg`,
     name: `Getaway Shootout`,
     developer: `Pat Eichler`,
