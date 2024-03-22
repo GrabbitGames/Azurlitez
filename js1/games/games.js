@@ -29,7 +29,7 @@ const gamesArr = [
   {
     filter: [`plat`],
     link: `slope`,
-    imgsrc: `slope.jpg`,
+    imgsrc: `IMG_0126.jpeg`,
     name: `Slope`,
     developer: `Rob Kay`,
     desc: `Slope is the ultimate running game that will put your skills to the test. Speed down on a randomized slope. The farther you go, the faster your ball travels. This game might look simple but playing this will give you extreme adrenaline rush. Just remember to avoid obstacles and those red blocks. Always be on track to get a high score and you might have your name on the leaderboard!`,
