@@ -9,7 +9,7 @@ const gamesArr = [
     controls: [`←/→ Arrow Keys: Move horizontally`]
   },*/
   {
-    filter: [`shoot`, `mp`, `fight`],
+    filter: [`misc`, `plat`,],
     link: `games/sz-games Games8 main only-up`,
     imgsrc: `IMG_0125.jpeg`,
     name: `Only Up`,
