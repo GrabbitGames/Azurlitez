@@ -68,8 +68,8 @@ const gamesArr = [
   },
   {
     filter: [`misc`],
-    link: `emulatorjs`,
-    imgsrc: `/IMG_0123.jpeg`,
+    link: `games/BicycleStunt3D-gh-pages (1)`,
+    imgsrc: `IMG_0123.jpeg`,
     name: `Bike Stunt 3D`,
     developer: `Big Boss Games`,
     desc: `The original And best Game of 2024. Play in your browser! Can you make ot through!
