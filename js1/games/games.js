@@ -152,11 +152,11 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Control movement`, `Mouse: Drag to throw`]
   },
   {
-    filter: [`shoot`, `flash`],
-    link: `zombocalypse`,
-    imgsrc: `zombocalypse.jpg`,
-    name: `Zombocalypse`,
-    developer: `John Funtanilla`,
+    filter: [`shoot`,`mp`,`fight`],
+    link: `games/GrabbitGames Webbyz main games-Roof1`,
+    imgsrc: `IMG_0128.jpeg`,
+    name: `Rooftop Snipers 1`,
+    developer: `Neweichgames`,
     desc: `Only you, and a whole lot of hungry hungry zombies. Fortunately, you get constant airdrops to deliver fresh weapons and med kits. Now, if you can only live long enough to earn some achievements and unlock some bigger guns. When things get really hairy, call in an airstrike!`,
     controls: [`AD/← →: Control movement`, `S/↓: Pick up items`, `W/↑: Call airstrike`, `Space: Attack`, `Shift: Pause game`]
   },
