@@ -18,8 +18,8 @@ const gamesArr = [
     controls: [`W/I: Jump`, `E/O: Shoot`]
   },
   {
-    filter: [`mp`],
-    link: `tube-jumpers`,
+    filter: [`sport`],
+    link: `games/Bowling`,
     imgsrc: `IMG_0124.jpeg`,
     name: `Bowling Club`,
     developer: `Pat Eichler`,
