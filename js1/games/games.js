@@ -20,8 +20,8 @@ const gamesArr = [
   {
     filter: [`mp`],
     link: `tube-jumpers`,
-    imgsrc: `tj.jpg`,
-    name: `Tube Jumpers`,
+    imgsrc: `IMG_0124.jpeg`,
+    name: `Bowling Club`,
     developer: `Pat Eichler`,
     desc: `Tube Jumpers is local multiplayer game with your friends packed with action. The last one to stay on the tubes wins. Watch out for miscellaneous objects while watching your back from other players.`,
     controls: [`W/I: Jump`]
