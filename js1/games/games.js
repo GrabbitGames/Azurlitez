@@ -11,7 +11,7 @@ const gamesArr = [
   {
     filter: [`shoot`, `mp`, `fight`],
     link: `games/sz-games Games8 main only-up`,
-    imgsrc: `rooftop.jpg`,
+    imgsrc: `IMG_0125.jpeg`,
     name: `Only Up`,
     developer: `SCKR Games`,
     desc: `Rooftop Snipers is a chaotic two button local multiplayer game. Challenge your friends side by side or play the computer. Shoot your opponent off the map to win.`,
