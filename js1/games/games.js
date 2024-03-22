@@ -134,11 +134,11 @@ const gamesArr = [
     controls: [`Type to interact`]
   },
   {
-    filter: [`puzzle`],
-    link: `tetris`,
-    imgsrc: `tetris.jpg`,
-    name: `Tetris`,
-    developer: `Kyle Shanks`,
+    filter: [`shoot`,`mp`,`fight`],
+    link: `games/GrabbitGames Webbyz main games-Roof2`,
+    imgsrc: `IMG_0120.jpeg`,
+    name: `Rooftop Snipers 2`,
+    developer: `Neweichgames`,
     desc: `Tetris is a tile-matching video game created by Russian software engineer Alexey Pajitnov in 1984. It has been published by several companies, most prominently during a dispute over the appropriation of the rights in the late 1980s.`,
     controls: [`←/→ Arrow Keys: Move horizontally`, `↑: Rotate piece`, `↓: Soft Drop`, `P: Pause`, `Shift: Switch blocks`, `Space: Hard drop`, `R: Reset`]
   },
