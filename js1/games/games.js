@@ -59,7 +59,7 @@ const gamesArr = [
   },
   {
     filter: [`misc`, `puzzle`],
-    link: `2048`,
+    link: `games/2048`,
     imgsrc: `2048.png`,
     name: `2048`,
     developer: `Gabriele Cirulli`,
