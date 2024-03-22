@@ -67,12 +67,12 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
   },
   {
-    filter: [`emu`],
+    filter: [`misc`],
     link: `emulatorjs`,
-    imgsrc: `ejs.png`,
-    name: `EmulatorJS`,
-    developer: `ethanobrien`,
-    desc: `The original decompilation of emulatorjs. Retroarch in your browser! Upload your own ROMS to play!
+    imgsrc: `/IMG_0123.jpeg`,
+    name: `Bike Stunt 3D`,
+    developer: `Big Boss Games`,
+    desc: `The original And best Game of 2024. Play in your browser! Can you make ot through!
     
 		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
 
