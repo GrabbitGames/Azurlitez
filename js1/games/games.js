@@ -67,7 +67,7 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
   },
   {
-    filter: [`misc`],
+    filter: [`plat`],
     link: `games/BicycleStunt3D-gh-pages (1)`,
     imgsrc: `IMG_0123.jpeg`,
     name: `Bike Stunt 3D`,
