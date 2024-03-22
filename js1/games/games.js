@@ -38,9 +38,9 @@ const gamesArr = [
   {
     filter: [`mp`, `shoot`, `fight`],
     link: `games/selenite-cc selenite-old main bit-planes`,
-    imgsrc: `getaway-shootout.jpg`,
-    name: `Getaway Shootout`,
-    developer: `Pat Eichler`,
+    imgsrc: `IMG_0127.jpeg`,
+    name: `Bit Plants`,
+    developer: `Anton Medvedev`,
     desc: `Race on top of a moving train in Getaway Shootout and be the first to grab 3 getaways. Compete against computer AI or with a friend in 2 player mode to prove who is the best. There are many weapons and power-ups you can collect throughout the map use it wisely to to gain an upper hand over your opponents.`,
     controls: [`W/E (P1): Jump left/right`, `R (P1): Power up`, `I/O (P2): Jump left/right`, `P (P2): Power up`]
   },
