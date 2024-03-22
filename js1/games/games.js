@@ -10,10 +10,10 @@ const gamesArr = [
   },*/
   {
     filter: [`shoot`, `mp`, `fight`],
-    link: `rooftop-snipers`,
+    link: `games/sz-games Games8 main only-up`,
     imgsrc: `rooftop.jpg`,
-    name: `Rooftop Snipers`,
-    developer: `Pat Eichler`,
+    name: `Only Up`,
+    developer: `SCKR Games`,
     desc: `Rooftop Snipers is a chaotic two button local multiplayer game. Challenge your friends side by side or play the computer. Shoot your opponent off the map to win.`,
     controls: [`W/I: Jump`, `E/O: Shoot`]
   },
@@ -22,7 +22,7 @@ const gamesArr = [
     link: `games/Bowling`,
     imgsrc: `IMG_0124.jpeg`,
     name: `Bowling Club`,
-    developer: `Pat Eichler`,
+    developer: `Super Appli`,
     desc: `Tube Jumpers is local multiplayer game with your friends packed with action. The last one to stay on the tubes wins. Watch out for miscellaneous objects while watching your back from other players.`,
     controls: [`W/I: Jump`]
   },
