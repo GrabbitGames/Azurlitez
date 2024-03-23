@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="/css/games.css">
   <link rel="stylesheet" href="/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
   
-  <link rel="stylesheet" href="/css/settings.css">
 	
 	<noscript>Your browser doesn't have JavaScript enabled. Please enable JavaScript or switch to a browser that supports
     it.</noscript>
@@ -98,7 +97,130 @@
     }
 }
 </style>
-     
+  <style>
+}
+.buttons select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 6px solid var(--border-color);
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: var(--text-color);
+    background-color: var(--button-bg-color);
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5"><path fill="var(--text-color)" d="M0 0h10L5 5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.buttons select:hover {
+    background-color: var(--input-bg-color);
+}
+.buttons button:last-child {
+    margin-right: 0;
+}
+.buttons select:focus {
+    outline: none;
+}
+
+.buttons option {
+    background-color: var(--input-bg-color);
+    color: var(--text-color);
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.buttons button {
+    width: calc(50% - 10px);
+    padding: 12px 15px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
+    border: 6px solid var(--border-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.buttons button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+.about-blank {
+    max-width: 400px;
+}
+.search-engine {
+    max-width: 400px;
+}
+.theme {
+    max-width: 400px;
+}
+.panic-button {
+    max-width: 400px;
+}
+.tab-cloaker {
+    max-width: 400px;
+}
+.buttons-row {
+    display: flex;
+    margin-right: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+    gap: 10px;
+}
+.tab-cloaker .buttons-row .button:first-child {
+    width: 100px;
+    margin: 0;
+    border: 6px solid var(--border-color);
+}
+.tab-cloaker .buttons-row .button:last-child {
+    width: 100px;
+    margin: 0;
+    border: 6px solid var(--border-color);
+}
+.custom-cloaks-title {
+    margin-top: 80px;   /* Gap before the title */
+    margin-bottom: 10px; /* Gap after the title */
+}
+.section-text {
+    font-size: 22px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.about-blank .buttons .button:first-child {
+    width: 80px;
+    margin: 0;
+    border: 6px solid var(--border-color);
+}
+.about-blank .buttons .button:last-child {
+    margin-bottom: 0;
+}
+.about-blank .buttons {
+    flex-direction: column;
+}
+.about-blank .buttons button {
+    width: 100%;
+    margin-bottom: 10px;
+}	  
+  </style>  
+	
 </head>
 <div id="loader">
         <h1>Azurlitez</h1>
