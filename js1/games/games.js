@@ -82,11 +82,11 @@ const gamesArr = [
     controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
   },
   {
-    filter: [`shoot`, `mp`, `fight`, `flash`],
-    link: `gun-mayhem`,
-    imgsrc: `gunmayhem.jpg`,
-    name: `Gun Mayhem`,
-    developer: `Kevin Gu`,
+    filter: [`plat`],
+    link: `/games/parkour.lol/`,
+    imgsrc: `download.jpeg`,
+    name: `Parkour.lol`,
+    developer: `Devclied`,
     desc: `Gun Mayhem is an extremely interesting flash format shooting game developed by Kevin Gu. The game is designed with 10 maps starting from prehistoric context to modern times. The player's task in this game is to destroy all enemies by shooting them down! Very simple, isn't it! Let's start the adventure now!`,
     controls: [`WASD/Arrow Keys: Control movement`, `Z/T: Shoot`, `X/Y: Throw bomb`]
   },
